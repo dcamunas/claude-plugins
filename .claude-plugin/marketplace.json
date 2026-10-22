@@ -1,0 +1,30 @@
+{
+  "name": "dcamunas",
+  "owner": {
+    "name": "David Camuñas",
+    "url": "https://github.com/dcamunas"
+  },
+  "description": "Plugins by dcamunas for Claude Code",
+  "plugins": [
+    {
+      "name": "model-router",
+      "source": {
+        "source": "github",
+        "repo": "dcamunas/model-router"
+      },
+      "description": "Picks the model and effort for every Claude Code subagent by its risk, and checks and escalates the work that needs it.",
+      "category": "productivity",
+      "tags": ["router", "models", "effort", "subagents", "cost"]
+    },
+    {
+      "name": "tribunal",
+      "source": {
+        "source": "github",
+        "repo": "dcamunas/model-tribunal"
+      },
+      "description": "A Claude judge and a Codex judge review each change blind to each other; an arbiter decides when they split.",
+      "category": "productivity",
+      "tags": ["qa", "code-review", "codex", "tribunal"]
+    }
+  ]
+}
