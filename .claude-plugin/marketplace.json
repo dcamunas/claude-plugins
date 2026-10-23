@@ -10,21 +10,36 @@
       "name": "model-router",
       "source": {
         "source": "github",
-        "repo": "dcamunas/model-router"
+        "repo": "dcamunas/model-router",
+        "ref": "v0.18.0",
+        "sha": "44e4cbb14487a554c115ca87f7dfd1801170486f"
       },
       "description": "Picks the model and effort for every Claude Code subagent by its risk, and checks and escalates the work that needs it.",
       "category": "productivity",
-      "tags": ["router", "models", "effort", "subagents", "cost"]
+      "tags": [
+        "router",
+        "models",
+        "effort",
+        "subagents",
+        "cost"
+      ]
     },
     {
       "name": "tribunal",
       "source": {
         "source": "github",
-        "repo": "dcamunas/model-tribunal"
+        "repo": "dcamunas/model-tribunal",
+        "ref": "v0.1.3",
+        "sha": "4df7f614d0f2e503f0431f782d229e4751eca146"
       },
       "description": "A Claude judge and a Codex judge review each change blind to each other; an arbiter decides when they split.",
       "category": "productivity",
-      "tags": ["qa", "code-review", "codex", "tribunal"]
+      "tags": [
+        "qa",
+        "code-review",
+        "codex",
+        "tribunal"
+      ]
     }
   ]
 }
