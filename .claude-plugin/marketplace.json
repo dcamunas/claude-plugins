@@ -23,23 +23,6 @@
         "subagents",
         "cost"
       ]
-    },
-    {
-      "name": "tribunal",
-      "source": {
-        "source": "github",
-        "repo": "dcamunas/model-tribunal",
-        "ref": "v0.1.5",
-        "sha": "addd904e105aa947ac87385bc5a8ccc1aa8684f5"
-      },
-      "description": "A Claude judge and a Codex judge review each change blind to each other; an arbiter decides when they split.",
-      "category": "productivity",
-      "tags": [
-        "qa",
-        "code-review",
-        "codex",
-        "tribunal"
-      ]
     }
   ]
 }
