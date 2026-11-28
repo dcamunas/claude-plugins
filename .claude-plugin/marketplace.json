@@ -11,8 +11,8 @@
       "source": {
         "source": "github",
         "repo": "dcamunas/model-router",
-        "ref": "v0.30.0",
-        "sha": "c0523607cbe24f9bc9af324e1532c4ec0fe31316"
+        "ref": "v0.31.0",
+        "sha": "0f3db8dc5a28b7c3639018c2cfcecc23d39f2984"
       },
       "description": "Picks the model and effort for every Claude Code subagent by its risk, and checks and escalates the work that needs it.",
       "category": "productivity",
